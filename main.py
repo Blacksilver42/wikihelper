@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import discord, json, pycurl
-import parse, cache, settings
+import parse, cache, settings, misc
 
 
 
