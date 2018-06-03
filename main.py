@@ -12,8 +12,8 @@ client = discord.Client()
 
 cmds = {
 	"getcache" : cache.getcache,
-	"agent"	: settings.getUserAgent,
-	"version" : settings.getVersion
+	"agent"	: misc.getUserAgent,
+	"version" : misc.getVersion
 }
 
 @client.event
