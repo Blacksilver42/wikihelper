@@ -2,7 +2,7 @@ import pycurl, zlib, discord
 
 WHOAMI="wikihelper"
 URL="https://github.com/Blacksilver42/wikihelper"
-VERSION="0.1.0"
+VERSION="0.1.1"
 VERSIONSTRING="Xyzzy!"
 PREFIX="&"
 USERAGENT = "{whoami}/{bot_version} ({pycurl_version})".format(
