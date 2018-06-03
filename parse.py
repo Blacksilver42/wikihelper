@@ -22,6 +22,7 @@ async def parse(client, M):
 	finds = xyzzy(M.content, start, end)
 	pages = []
 	for find in finds:
+		find = find.replace(" ", "_")
 		url = settings.WIKI.format(page=find)
 		if(try_url.try_url(url) == 200):
 			pages.append(url)
