@@ -28,6 +28,7 @@ async def parse(client, M):
 		if(try_url.try_url(url,opts=opts) == 200):
 			pages.append(url)
 	if(pages):
+		pages = list(set(pages))
 		await client.send_message(M.channel, " | ".join(pages))
 	try_url.cache.cache.save()
 
