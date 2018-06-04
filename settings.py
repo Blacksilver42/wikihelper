@@ -2,8 +2,8 @@ import pycurl, zlib, discord
 
 WHOAMI="wikihelper"
 URL="https://github.com/Blacksilver42/wikihelper"
-VERSION="0.1.3"
-VERSIONSTRING="Xyzzy!"
+VERSION="0.1.4"
+VERSIONSTRING="Bulletproof"
 PREFIX="&"
 USERAGENT = "{whoami}/{bot_version} ({pycurl_version})".format(
 	whoami=WHOAMI,
